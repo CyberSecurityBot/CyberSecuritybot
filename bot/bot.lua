@@ -1,6 +1,3 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
-
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -70,8 +67,17 @@ function create_config( )
 		"tools",
 		"fun",
 		"info"
+		"addkick"
+		"cleanBlackList"
+		"cleanbot"
+		"del"
+		"Invite"
+		"mute_time"
+		"ping"
+		"serverinfo"
+		"setnerkh"
 	},
-    sudo_users = {157059515},
+    sudo_users = {262428085},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
