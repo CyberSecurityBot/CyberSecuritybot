@@ -30,3 +30,16 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
   }
 ```
 add your ID at line 72 in bot.lua and add your ID at line 2 in tools.lua, Then restart the bot.
+****************************************
+
+cd $HOME && cd Cyber
+
+killall screen
+
+killall tmux
+
+killall telegram-cli
+
+tmux new-session -s script "bash steady.sh -t"
+
+***************************************
