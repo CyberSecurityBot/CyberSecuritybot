@@ -67,15 +67,6 @@ function create_config( )
 		"tools",
 		"fun",
 		"info"
-		"addkick"
-		"cleanBlackList"
-		"cleanbot"
-		"del"
-		"Invite"
-		"mute_time"
-		"ping"
-		"serverinfo"
-		"setnerkh"
 	},
     sudo_users = {262428085},
     admins = {},
